@@ -1,0 +1,21 @@
+{
+    "name": "gavrusha/myproject",
+    "type": "project",
+    "require": {
+        "erusev/parsedown": "@stable"
+    },
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "MyProject\\": "src/MyProject/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "gavriil nikitin"
+        }
+    ],
+    "minimum-stability": "stable"
+}
